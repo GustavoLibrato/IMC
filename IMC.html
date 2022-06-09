@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Imc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculadora De Imc</h1>
+    
+        <form action="">
+
+        <label for="Peso">Informe Seu Peso (KG)</label>
+        <br>
+        <input type="text" name="Peso" id="peso" class="peso">
+        <br>
+        <br>
+        <label for="Altura">Informe Sua Altura (metro)</label>
+        <br>
+        <input type="text" name="Altura" id="altura" class="altura">
+        <br>
+        <br>
+           
+            <input type="Button" onclick="CalcularImc();" value="Calcular" class="Botao">
+
+            <div class="modal" id="erro">
+                <p>aqui vai aparecer erros</p>
+            </div>
+
+            <div class="modal" id="resultado">
+                <p>aqui vai aparecer erros</p>
+            </div>
+
+        </form>
+    
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/imc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+</body>
+</html>

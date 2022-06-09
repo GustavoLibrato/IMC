@@ -1,0 +1,27 @@
+
+
+h1 {
+    color: aqua;
+    background-color: grey;
+    width: 20%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+#Peso #Altura { color: blue;}
+
+form {
+    background-color: grey;
+    width: 20%;
+    text-align: center;
+  
+}
+
+.Botao{
+    color: aqua;
+    width: 100px;
+    padding: 15px;
+    background-color: rgba(212, 191, 119, 0.651);
+}
+
